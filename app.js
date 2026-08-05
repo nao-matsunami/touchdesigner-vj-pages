@@ -321,7 +321,10 @@ Timer CHOP (${piece.loopSeconds}s cycle) -> Math CHOP -> Pattern CHOP -> Export 
 
 Export:
 Movie File Out TOP for MP4 preview
-Movie File Out TOP with alpha-capable codec for MOV master`;
+Movie File Out TOP with alpha-capable codec for MOV master
+
+Automation:
+offline/create_feedback_network.py creates this starter network from a Text DAT.`;
 }
 function roundRect(context, x, y, w, h, r) { context.beginPath(); context.moveTo(x + r, y); context.arcTo(x + w, y, x + w, y + h, r); context.arcTo(x + w, y + h, x, y + h, r); context.arcTo(x, y + h, x, y, r); context.arcTo(x, y, x + w, y, r); context.closePath(); }
 function rgb(values) { return values.map((value) => Math.round(value * 255)); }
