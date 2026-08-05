@@ -1,0 +1,24 @@
+{
+  "sources": [
+    {
+      "label": "Derivative Operator Guide",
+      "url": "https://derivative.ca/UserGuide/Operator",
+      "note": "TouchDesignerのOperatorはノードとして扱われ、TOP、CHOP、SOP、DAT、COMPなどのファミリーを接続してネットワークを組む。"
+    },
+    {
+      "label": "Derivative TOP Guide",
+      "url": "https://derivative.ca/UserGuide/TOP",
+      "note": "TOPはGPUベースの画像処理、合成、テクスチャ生成に使う。VJ素材ではFeedback、Composite、Displace、Levelなどの組み合わせが重要。"
+    }
+  ],
+  "drops": [
+    {
+      "date": "2026-08-14",
+      "title": "Feedback TOP Network",
+      "loopSeconds": 16,
+      "palette": [0.27, 0.93, 0.74, 1.0, 0.42, 0.24],
+      "copy": "TouchDesigner VJ Siteの最初のフレーム。TOPのFeedback、Transform、Composite、Levelを想定したノードベースの抽象VJループ。",
+      "why": "TouchDesignerはノードベースでリアルタイム映像、インタラクティブ演出、音反応、プロジェクション用途に強い。ブラウザ公開は軽量プレビューに留め、本番のMP4/MOVはMac miniでTouchDesignerから固定FPS出力する運用にする。"
+    }
+  ]
+}
