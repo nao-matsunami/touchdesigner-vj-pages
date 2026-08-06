@@ -1,0 +1,49 @@
+{
+  "date": "2026-08-14",
+  "headline": "Feedback TOP Network",
+  "headlineEn": "Feedback TOP Network",
+  "summary": "TouchDesigner VJ Siteの最初のフレーム。TOPのFeedback、Transform、Composite、Levelを想定したノードベースの抽象VJループ。",
+  "summaryEn": "TouchDesigner VJ Siteの最初のフレーム。TOPのFeedback、Transform、Composite、Levelを想定したノードベースの抽象VJループ。",
+  "links": [
+    {
+      "label": "Today's sample",
+      "url": "../outputs/2026-08-14_feedback-top-network.html"
+    },
+    {
+      "label": "Live preview",
+      "url": "../live.html"
+    },
+    {
+      "label": "Derivative Operator Guide",
+      "url": "https://derivative.ca/UserGuide/Operator"
+    },
+    {
+      "label": "Derivative TOP Guide",
+      "url": "https://derivative.ca/UserGuide/TOP"
+    }
+  ],
+  "sections": [
+    {
+      "title": "今日の制作メモ",
+      "titleEn": "Production note",
+      "body": "TouchDesignerはノードベースでリアルタイム映像、インタラクティブ演出、音反応、プロジェクション用途に強い。ブラウザ公開は軽量プレビューに留め、本番のMP4/MOVはMac miniでTouchDesignerから固定FPS出力する運用にする。",
+      "bodyEn": "TouchDesignerはノードベースでリアルタイム映像、インタラクティブ演出、音反応、プロジェクション用途に強い。ブラウザ公開は軽量プレビューに留め、本番のMP4/MOVはMac miniでTouchDesignerから固定FPS出力する運用にする。",
+      "links": [
+        {
+          "label": "Derivative Operator Guide",
+          "url": "https://derivative.ca/UserGuide/Operator"
+        },
+        {
+          "label": "Derivative TOP Guide",
+          "url": "https://derivative.ca/UserGuide/TOP"
+        }
+      ]
+    },
+    {
+      "title": "販売用データへの展開",
+      "titleEn": "Sales package route",
+      "body": "TouchDesigner VJ Site はGitHub Pages上では軽量なサンプルとして公開し、MP4、alpha MOV、プロジェクトファイルなどの重い販売データはGumroadまたはPatreonへ置く前提です。",
+      "bodyEn": "TouchDesigner VJ Site is published on GitHub Pages as a lightweight sample. Heavy saleable files such as MP4, alpha MOV, and project files should live on Gumroad or Patreon."
+    }
+  ]
+}
